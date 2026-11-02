@@ -1,0 +1,237 @@
+<mujoco model="assembly_v5">
+  <compiler angle="radian" meshdir="../meshes" autolimits="true" inertiafromgeom="true"/>
+  <option timestep="0.002"/>
+  <default>
+    <joint damping="0.01" armature="0.0001"/>
+    <geom contype="0" conaffinity="0" group="1"/>
+  </default>
+  <asset>
+    <mesh name="body_bottom" file="Body_Bottom.stl" scale="1 1 1"/>
+    <mesh name="h" file="H.stl" scale="1 1 1"/>
+    <mesh name="h_1" file="H_1.stl" scale="1 1 1"/>
+    <mesh name="h_2" file="H_2.stl" scale="1 1 1"/>
+    <mesh name="h_3" file="H_3.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat" file="MG90_Hat.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_1" file="MG90_Hat_1.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_10" file="MG90_Hat_10.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_11" file="MG90_Hat_11.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_2" file="MG90_Hat_2.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_3" file="MG90_Hat_3.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_4" file="MG90_Hat_4.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_5" file="MG90_Hat_5.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_6" file="MG90_Hat_6.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_7" file="MG90_Hat_7.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_8" file="MG90_Hat_8.stl" scale="1 1 1"/>
+    <mesh name="mg90_hat_9" file="MG90_Hat_9.stl" scale="1 1 1"/>
+    <mesh name="mg90s" file="MG90s.stl" scale="1 1 1"/>
+    <mesh name="mg90s_1" file="MG90s_1.stl" scale="1 1 1"/>
+    <mesh name="mg90s_10" file="MG90s_10.stl" scale="1 1 1"/>
+    <mesh name="mg90s_11" file="MG90s_11.stl" scale="1 1 1"/>
+    <mesh name="mg90s_2" file="MG90s_2.stl" scale="1 1 1"/>
+    <mesh name="mg90s_3" file="MG90s_3.stl" scale="1 1 1"/>
+    <mesh name="mg90s_4" file="MG90s_4.stl" scale="1 1 1"/>
+    <mesh name="mg90s_5" file="MG90s_5.stl" scale="1 1 1"/>
+    <mesh name="mg90s_6" file="MG90s_6.stl" scale="1 1 1"/>
+    <mesh name="mg90s_7" file="MG90s_7.stl" scale="1 1 1"/>
+    <mesh name="mg90s_8" file="MG90s_8.stl" scale="1 1 1"/>
+    <mesh name="mg90s_9" file="MG90s_9.stl" scale="1 1 1"/>
+    <mesh name="pin_hat" file="Pin_Hat.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_1" file="Pin_Hat_1.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_10" file="Pin_Hat_10.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_11" file="Pin_Hat_11.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_2" file="Pin_Hat_2.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_3" file="Pin_Hat_3.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_4" file="Pin_Hat_4.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_5" file="Pin_Hat_5.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_6" file="Pin_Hat_6.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_7" file="Pin_Hat_7.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_8" file="Pin_Hat_8.stl" scale="1 1 1"/>
+    <mesh name="pin_hat_9" file="Pin_Hat_9.stl" scale="1 1 1"/>
+    <mesh name="vi" file="VI.stl" scale="1 1 1"/>
+    <mesh name="vi_1" file="VI_1.stl" scale="1 1 1"/>
+    <mesh name="vi_2" file="VI_2.stl" scale="1 1 1"/>
+    <mesh name="vi_3" file="VI_3.stl" scale="1 1 1"/>
+    <mesh name="vo" file="VO.stl" scale="1 1 1"/>
+    <mesh name="vo_1" file="VO_1.stl" scale="1 1 1"/>
+    <mesh name="vo_2" file="VO_2.stl" scale="1 1 1"/>
+    <mesh name="vo_3" file="VO_3.stl" scale="1 1 1"/>
+  </asset>
+  <worldbody>
+    <light pos="0 0 1" dir="0 0 -1"/>
+    <body name="root">
+      <body name="body_bottom" pos="0 0 0" quat="1 0 0 0">
+        <geom type="mesh" mesh="body_bottom" pos="0.168425 0.001802 0.0448132" quat="1 0 0 0" rgba="0.972549 0.529412 0.00392157 1" density="1100" contype="1" conaffinity="0"/>
+        <body name="mg90s_4" pos="0.0480945 0.003302 -0.0475831" quat="1 0 0 0">
+          <geom type="mesh" mesh="mg90s_4" pos="0.12033 -0.0015 0.0923963" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+        </body>
+        <body name="pin_hat_8" pos="0.0539577 0.022329 -0.0394615" quat="1 0 0 0">
+          <geom type="mesh" mesh="pin_hat_8" pos="0.114467 -0.020527 0.0842746" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+          <body name="h_1" pos="0.00254 0.005588 -0.00812165" quat="0.91535163 0 0.40265543 0">
+            <joint name="revolute_4" type="hinge" axis="0 -1 0" range="-1.78916 1.35243"/>
+            <geom type="mesh" mesh="h_1" pos="0.111927 -0.026115 0.0923963" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100" contype="1" conaffinity="0"/>
+            <body name="mg90_hat_10" pos="0.00982791 -0.035915 0" quat="1 0 0 0">
+              <geom type="mesh" mesh="mg90_hat_10" pos="0.10233 0.0098 0.0923963" quat="1 0 0 0" rgba="0.231373 0.380392 0.705882 1" density="1100"/>
+            </body>
+            <body name="pin_hat_7" pos="0.05334 -0.0179934 -0.017757" quat="1 0 0 0">
+              <geom type="mesh" mesh="pin_hat_7" pos="0.0585869 -0.00812165 0.110153" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+              <body name="vi_1" pos="-0.00254 -0.00812165 -0.005588" quat="0.91718638 0 0 -0.39845846">
+                <joint name="revolute_5" type="hinge" axis="0 0 1" range="-1.18746 2.12867"/>
+                <geom type="mesh" mesh="vi_1" pos="0.0611269 0 0.115741" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                <body name="mg90_hat" pos="0.00983439 0 0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat" pos="0.0515301 0 0.0798263" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="mg90_hat_6" pos="0.0460521 0 0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat_6" pos="0.0148436 0 0.0798263" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="pin_hat_2" pos="0.05588 0 0" quat="1 0 0 0">
+                  <joint name="revolute_6" type="hinge" axis="0 0 -1" range="-0.918465 2.39766"/>
+                  <geom type="mesh" mesh="pin_hat_2" pos="0.00524234 0.000217505 0.115741" quat="0.99978508 0 0 0.020731615" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                  <body name="vo_3" pos="-0.00287449 0.00800937 0.005588" quat="0.99978508 0 0 0.020731615">
+                    <geom type="mesh" mesh="vo_3" pos="0.00778685 -0.00812165 0.110153" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                    <body name="mg90s_8" pos="-0.00586315 -0.00812165 0.019027" quat="1 0 0 0">
+                      <geom type="mesh" mesh="mg90s_8" pos="0.01365 0 0.0911263" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+            <body name="mg90s_1" pos="0.0319032 -0.026115 0.00127" quat="1 0 0 0">
+              <geom type="mesh" mesh="mg90s_1" pos="0.0800237 0 0.0911263" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+            </body>
+          </body>
+        </body>
+        <body name="pin_hat_6" pos="0.0539577 0.022329 0.0394615" quat="1 0 0 0">
+          <geom type="mesh" mesh="pin_hat_6" pos="0.114467 -0.020527 0.00535165" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+          <body name="h_2" pos="0.00254 0.005588 0.00812165" quat="1 0 0 0">
+            <joint name="revolute_1" type="hinge" axis="0 1 0" range="-1.62266 1.51893"/>
+            <geom type="mesh" mesh="h_2" pos="0.0632369 -0.026115 0.0923926" quat="0.87869843 0 -0.47737727 0" rgba="0.647059 0.647059 0.647059 1" density="1100" contype="1" conaffinity="0"/>
+            <body name="mg90_hat_11" pos="0.00534856 -0.035915 0.00824504" quat="0.87869843 0 -0.47737727 0">
+              <geom type="mesh" mesh="mg90_hat_11" pos="0.10233 0.0098 -0.00277" quat="1 0 0 0" rgba="0.231373 0.380392 0.705882 1" density="1100"/>
+            </body>
+            <body name="mg90s_5" pos="0.0184278 -0.026115 0.0260737" quat="0.87869843 0 -0.47737727 0">
+              <geom type="mesh" mesh="mg90s_5" pos="0.0800237 0 -0.0015" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+            </body>
+            <body name="pin_hat_5" pos="0.0113671 -0.0179933 0.0501511" quat="0.87869843 0 -0.47737727 0">
+              <geom type="mesh" mesh="pin_hat_5" pos="0.0636669 -0.00812165 -0.020527" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+              <body name="vi_3" pos="0.00254 -0.00812165 0.005588" quat="1 0 0 0">
+                <joint name="revolute_2" type="hinge" axis="0 0 -1" range="-1.51321 1.80292"/>
+                <geom type="mesh" mesh="vi_3" pos="0.0598567 -0.0123961 -0.026115" quat="0.99479181 0 0 -0.10192768" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                <body name="mg90_hat_3" pos="0.0450952 -0.00933906 -0.035915" quat="0.99479181 0 0 -0.10192768">
+                  <geom type="mesh" mesh="mg90_hat_3" pos="0.0148436 0 0.0098" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="mg90_hat_9" pos="0.00963005 -0.00199435 -0.035915" quat="0.99479181 0 0 -0.10192768">
+                  <geom type="mesh" mesh="mg90_hat_9" pos="0.0515301 0 0.0098" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="pin_hat_4" pos="0.0547189 -0.0113321 0" quat="0.99479181 0 0 -0.10192768">
+                  <joint name="revolute_3" type="hinge" axis="0 0 1" range="-1.53835 1.77778"/>
+                  <geom type="mesh" mesh="pin_hat_4" pos="0.00358776 -0.0038285 -0.026115" quat="0.9175492 0 0 -0.39762228" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                  <body name="vo_2" pos="0.00418934 0.00740691 -0.005588" quat="0.9175492 0 0 -0.39762228">
+                    <geom type="mesh" mesh="vo_2" pos="0.00778685 -0.00812165 -0.020527" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                    <body name="mg90s_10" pos="0.0214368 -0.00812165 -0.019027" quat="1 0 0 0">
+                      <geom type="mesh" mesh="mg90s_10" pos="-0.01365 0 -0.0015" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="pin_hat_1" pos="-0.0590368 0.022329 0.0394615" quat="1 0 0 0">
+          <geom type="mesh" mesh="pin_hat_1" pos="0.227461 -0.020527 0.00535165" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+          <body name="h" pos="0.00254 0.005588 0.00812165" quat="0.93324015 0 0.35925316 0">
+            <joint name="revolute_7" type="hinge" axis="0 -1 0" range="-1.88306 1.25853"/>
+            <geom type="mesh" mesh="h" pos="0.224921 -0.026115 -0.00277" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100" contype="1" conaffinity="0"/>
+            <body name="mg90s_6" pos="-0.0319032 -0.026115 -0.00127" quat="1 0 0 0">
+              <geom type="mesh" mesh="mg90s_6" pos="0.256825 0 -0.0015" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+            </body>
+            <body name="mg90_hat_1" pos="-0.00982791 -0.035915 0" quat="1 0 0 0">
+              <geom type="mesh" mesh="mg90_hat_1" pos="0.234518 0.0098 -0.00277" quat="1 0 0 0" rgba="0.231373 0.380392 0.705882 1" density="1100"/>
+            </body>
+            <body name="pin_hat_11" pos="-0.04826 -0.0179934 0.017757" quat="1 0 0 0">
+              <geom type="mesh" mesh="pin_hat_11" pos="0.273181 -0.00812165 -0.020527" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+              <body name="vi" pos="-0.00254 -0.00812165 0.005588" quat="0.96726659 0 0 0.25376239">
+                <joint name="revolute_8" type="hinge" axis="0 0 -1" range="-0.795861 2.52026"/>
+                <geom type="mesh" mesh="vi" pos="0.275721 0 -0.026115" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                <body name="mg90_hat_7" pos="-0.0460521 0 -0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat_7" pos="0.322005 0 0.0098" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="mg90_hat_2" pos="-0.00983439 0 -0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat_2" pos="0.285318 0 0.0098" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="pin_hat_3" pos="-0.05588 0 0" quat="1 0 0 0">
+                  <joint name="revolute_9" type="hinge" axis="0 0 1" range="-1.76896 1.54716"/>
+                  <geom type="mesh" mesh="pin_hat_3" pos="0.228871 0.239953 -0.026115" quat="0.91929299 0 0 0.39357387" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                  <body name="vo" pos="-0.00412388 0.00744355 -0.005588" quat="0.91929299 0 0 0.39357387">
+                    <geom type="mesh" mesh="vo" pos="0.329061 -0.00812165 -0.020527" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                    <body name="mg90s_9" pos="-0.0214369 -0.00812165 -0.019027" quat="1 0 0 0">
+                      <geom type="mesh" mesh="mg90s_9" pos="0.350498 0 -0.0015" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="mg90s" pos="-0.0480937 0.003302 0.0475832" quat="1 0 0 0">
+          <geom type="mesh" mesh="mg90s" pos="0.216518 -0.0015 -0.00277" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+        </body>
+        <body name="pin_hat_9" pos="-0.0539568 0.022329 -0.0394615" quat="1 0 0 0">
+          <geom type="mesh" mesh="pin_hat_9" pos="0.222381 -0.020527 0.0842746" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+          <body name="h_3" pos="-0.00254 0.005588 -0.00812165" quat="1 0 0 0">
+            <joint name="revolute_10" type="hinge" axis="0 1 0" range="-1.97201 1.16958"/>
+            <geom type="mesh" mesh="h_3" pos="0.123981 -0.026115 0.209178" quat="0.94829062 0 -0.31740336 0" rgba="0.647059 0.647059 0.647059 1" density="1100" contype="1" conaffinity="0"/>
+            <body name="pin_hat" pos="-0.0278467 -0.0179934 -0.0432308" quat="0.94829062 0 -0.31740336 0">
+              <geom type="mesh" mesh="pin_hat" pos="0.273181 -0.00812165 0.110153" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+              <body name="vi_2" pos="-0.00254 -0.00812165 -0.005588" quat="0.99278683 0 0 0.1198929">
+                <joint name="revolute_11" type="hinge" axis="0 0 1" range="-2.24749 1.06863"/>
+                <geom type="mesh" mesh="vi_2" pos="0.275721 0 0.115741" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                <body name="mg90_hat_8" pos="-0.00983439 0 0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat_8" pos="0.285318 0 0.0798263" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="mg90_hat_4" pos="-0.0460521 0 0.035915" quat="1 0 0 0">
+                  <geom type="mesh" mesh="mg90_hat_4" pos="0.322005 0 0.0798263" quat="1 0 0 0" rgba="0.647059 0.647059 0.647059 1" density="1100"/>
+                </body>
+                <body name="pin_hat_10" pos="-0.05588 0 0" quat="1 0 0 0">
+                  <joint name="revolute_12" type="hinge" axis="0 0 -1" range="-1.31603 2.00009"/>
+                  <geom type="mesh" mesh="pin_hat_10" pos="0.167817 0.286002 0.115741" quat="0.86777943 0 0 0.49694956" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                  <body name="vo_1" pos="-0.00571937 0.00630092 0.005588" quat="0.86777943 0 0 0.49694956">
+                    <geom type="mesh" mesh="vo_1" pos="0.329061 -0.00812165 0.110153" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100" contype="1" conaffinity="0"/>
+                    <body name="mg90s_3" pos="0.00586315 -0.00812165 0.0191758" quat="1 0 0 0">
+                      <geom type="mesh" mesh="mg90s_3" pos="0.323198 0 0.0911263" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+            <body name="mg90_hat_5" pos="-0.00784769 -0.035915 -0.00591621" quat="0.94829062 0 -0.31740336 0">
+              <geom type="mesh" mesh="mg90_hat_5" pos="0.234518 0.0098 0.0923963" quat="1 0 0 0" rgba="0.231373 0.380392 0.705882 1" density="1100"/>
+            </body>
+            <body name="mg90s_11" pos="-0.0262395 -0.026115 -0.018191" quat="0.94829062 0 -0.31740336 0">
+              <geom type="mesh" mesh="mg90s_11" pos="0.256825 0 0.0911263" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+            </body>
+          </body>
+        </body>
+        <body name="mg90s_2" pos="0.0480945 0.003302 0.0475832" quat="1 0 0 0">
+          <geom type="mesh" mesh="mg90s_2" pos="0.12033 -0.0015 -0.00277" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+        </body>
+        <body name="mg90s_7" pos="-0.0753937 0.003302 -0.0475831" quat="1 0 0 0">
+          <geom type="mesh" mesh="mg90s_7" pos="0.243818 -0.0015 0.0923963" quat="1 0 0 0" rgba="0.615686 0.811765 0.929412 1" density="1100"/>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="revolute_4_act" joint="revolute_4" kp="2.0" kv="0.05" ctrlrange="-1.78916 1.35243" forcerange="-1.0 1.0"/>
+    <position name="revolute_5_act" joint="revolute_5" kp="2.0" kv="0.05" ctrlrange="-1.18746 2.12867" forcerange="-1.0 1.0"/>
+    <position name="revolute_6_act" joint="revolute_6" kp="2.0" kv="0.05" ctrlrange="-0.918465 2.39766" forcerange="-1.0 1.0"/>
+    <position name="revolute_1_act" joint="revolute_1" kp="2.0" kv="0.05" ctrlrange="-1.62266 1.51893" forcerange="-1.0 1.0"/>
+    <position name="revolute_2_act" joint="revolute_2" kp="2.0" kv="0.05" ctrlrange="-1.51321 1.80292" forcerange="-1.0 1.0"/>
+    <position name="revolute_3_act" joint="revolute_3" kp="2.0" kv="0.05" ctrlrange="-1.53835 1.77778" forcerange="-1.0 1.0"/>
+    <position name="revolute_7_act" joint="revolute_7" kp="2.0" kv="0.05" ctrlrange="-1.88306 1.25853" forcerange="-1.0 1.0"/>
+    <position name="revolute_8_act" joint="revolute_8" kp="2.0" kv="0.05" ctrlrange="-0.795861 2.52026" forcerange="-1.0 1.0"/>
+    <position name="revolute_9_act" joint="revolute_9" kp="2.0" kv="0.05" ctrlrange="-1.76896 1.54716" forcerange="-1.0 1.0"/>
+    <position name="revolute_10_act" joint="revolute_10" kp="2.0" kv="0.05" ctrlrange="-1.97201 1.16958" forcerange="-1.0 1.0"/>
+    <position name="revolute_11_act" joint="revolute_11" kp="2.0" kv="0.05" ctrlrange="-2.24749 1.06863" forcerange="-1.0 1.0"/>
+    <position name="revolute_12_act" joint="revolute_12" kp="2.0" kv="0.05" ctrlrange="-1.31603 2.00009" forcerange="-1.0 1.0"/>
+  </actuator>
+</mujoco>

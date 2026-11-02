@@ -1,0 +1,14 @@
+WARNING Sat Oct  3 17:48:44 2026: OpenGL error 0x502 in or before mjr_makeContext
+
+WARNING Sat Oct  3 17:48:50 2026: File size over 2GB is not supported. File: '/home/sean-c/Downloads/Assembly v3/assembly_v3/urdf'
+
+WARNING Sat Oct  3 17:48:54 2026: File size over 2GB is not supported. File: '/home/sean-c/Downloads/Assembly v3/assembly_v3/meshes'
+
+WARNING Sat Oct  3 17:49:00 2026: File size over 2GB is not supported. File: '/home/sean-c/Downloads/Assembly v3/assembly_v3'
+
+WARNING Sat Oct  3 17:49:05 2026: File size over 2GB is not supported. File: '/home/sean-c/Downloads/Assembly v3'
+
+WARNING Sat Oct  3 17:50:13 2026: OpenGL error 0x502 in or before mjr_makeContext
+
+WARNING Sat Oct  3 18:00:45 2026: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 632.6420.
+
