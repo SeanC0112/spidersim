@@ -221,17 +221,17 @@
     </body>
   </worldbody>
   <actuator>
-    <position name="revolute_4_act" joint="revolute_4" kp="2.0" kv="0.05" ctrlrange="-1.78916 1.35243" forcerange="-1.0 1.0"/>
-    <position name="revolute_5_act" joint="revolute_5" kp="2.0" kv="0.05" ctrlrange="-1.18746 2.12867" forcerange="-1.0 1.0"/>
-    <position name="revolute_6_act" joint="revolute_6" kp="2.0" kv="0.05" ctrlrange="-0.918465 2.39766" forcerange="-1.0 1.0"/>
-    <position name="revolute_1_act" joint="revolute_1" kp="2.0" kv="0.05" ctrlrange="-1.62266 1.51893" forcerange="-1.0 1.0"/>
-    <position name="revolute_2_act" joint="revolute_2" kp="2.0" kv="0.05" ctrlrange="-1.51321 1.80292" forcerange="-1.0 1.0"/>
-    <position name="revolute_3_act" joint="revolute_3" kp="2.0" kv="0.05" ctrlrange="-1.53835 1.77778" forcerange="-1.0 1.0"/>
-    <position name="revolute_7_act" joint="revolute_7" kp="2.0" kv="0.05" ctrlrange="-1.88306 1.25853" forcerange="-1.0 1.0"/>
-    <position name="revolute_8_act" joint="revolute_8" kp="2.0" kv="0.05" ctrlrange="-0.795861 2.52026" forcerange="-1.0 1.0"/>
-    <position name="revolute_9_act" joint="revolute_9" kp="2.0" kv="0.05" ctrlrange="-1.76896 1.54716" forcerange="-1.0 1.0"/>
-    <position name="revolute_10_act" joint="revolute_10" kp="2.0" kv="0.05" ctrlrange="-1.97201 1.16958" forcerange="-1.0 1.0"/>
-    <position name="revolute_11_act" joint="revolute_11" kp="2.0" kv="0.05" ctrlrange="-2.24749 1.06863" forcerange="-1.0 1.0"/>
-    <position name="revolute_12_act" joint="revolute_12" kp="2.0" kv="0.05" ctrlrange="-1.31603 2.00009" forcerange="-1.0 1.0"/>
+    <position name="revolute_4_act" joint="revolute_4" kp="2.0" kv="0.05" ctrlrange="-1.78916 1.35243" forcerange="-0.18 0.18"/>
+    <position name="revolute_5_act" joint="revolute_5" kp="2.0" kv="0.05" ctrlrange="-1.18746 2.12867" forcerange="-0.18 0.18"/>
+    <position name="revolute_6_act" joint="revolute_6" kp="2.0" kv="0.05" ctrlrange="-0.918465 2.39766" forcerange="-0.18 0.18"/>
+    <position name="revolute_1_act" joint="revolute_1" kp="2.0" kv="0.05" ctrlrange="-1.62266 1.51893" forcerange="-0.18 0.18"/>
+    <position name="revolute_2_act" joint="revolute_2" kp="2.0" kv="0.05" ctrlrange="-1.51321 1.80292" forcerange="-0.18 0.18"/>
+    <position name="revolute_3_act" joint="revolute_3" kp="2.0" kv="0.05" ctrlrange="-1.53835 1.77778" forcerange="-0.18 0.18"/>
+    <position name="revolute_7_act" joint="revolute_7" kp="2.0" kv="0.05" ctrlrange="-1.88306 1.25853" forcerange="-0.18 0.18"/>
+    <position name="revolute_8_act" joint="revolute_8" kp="2.0" kv="0.05" ctrlrange="-0.795861 2.52026" forcerange="-0.18 0.18"/>
+    <position name="revolute_9_act" joint="revolute_9" kp="2.0" kv="0.05" ctrlrange="-1.76896 1.54716" forcerange="-0.18 0.18"/>
+    <position name="revolute_10_act" joint="revolute_10" kp="2.0" kv="0.05" ctrlrange="-1.97201 1.16958" forcerange="-0.18 0.18"/>
+    <position name="revolute_11_act" joint="revolute_11" kp="2.0" kv="0.05" ctrlrange="-2.24749 1.06863" forcerange="-0.18 0.18"/>
+    <position name="revolute_12_act" joint="revolute_12" kp="2.0" kv="0.05" ctrlrange="-1.31603 2.00009" forcerange="-0.18 0.18"/>
   </actuator>
 </mujoco>
